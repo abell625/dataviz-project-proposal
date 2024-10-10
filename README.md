@@ -2,47 +2,35 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is a Pokemon GO dataset that can be found at https://www.kaggle.com/datasets/shreyasur965/pokemon-go?resource=download
 
 
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+ * I want to see how many pokemon have special methods of finding them (i.e. found_egg, found_research etc.)
+ * I want to see how different pokemon's max strength (max_cp) correlates to other fields (base_capture_rate, etc.)
+ * I want to see how different pokemon's move sets vary across different stages of evolution.
 
 ## Sketches
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+![DataVizProposalSketch](https://github.com/user-attachments/assets/2af745b7-efb4-4ff4-991f-5ca8afbaeb6d)
 
-
-## Prototypes
-
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
-
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
-
-You can put images into here by pasting them into issues.
-
-You can make images into links like this:
-
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-```
-
-
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
+In this rough diagram of the dataset, I show different stats of a particular pokemon as a radar chart, a level curve which will display a pokemon's max strength at every level, and a few symbols which will display which pokemon can be captured by different methods. The different methods of obtaining come from eggs, evolution, wild captures, research breakthroughs, and raid battles. In this diagram I also leave space for different moves the pokemon can learn, as well as it's weaknesses and resistances.
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+My biggest worry is actually the dropdown/search for a particular pokemon. I intend for it to populate with pokmemon's names from the dataset, but I'm not confident about putting it all into a dropdown menu. In addition, the symbols I plan on using for the ways to obtain might not be as clear as I hoped, so I plan on iterating them over time to make sure that the symbol's meaning is clear. Lastly, the level curve is going to originate from a formula based on the stats of the pokemon, so I have to make sure that the formula is accurate to the game information.
 
 ## Milestones
 
-(for each week, estimate what would be accomplised)
+Week 1: Implement radar chart, ways to obtain, fast attack list, and charged attack list.
+
+Week 2: Implement weaknesses & resistances lists
+
+Week 3: Implement level curve
+
+Week 4: Implement Dropdown to search different pokemon
+
+Week 5: Catchup on any incomplete tasks, implement any last minute ideas.
