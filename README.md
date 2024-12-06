@@ -7,7 +7,7 @@ This project uses a Pokemon Go dataset found on Kaggle
 and creates a few different graphs/tables based on the
 information present in the dataset. When first loading the
 Visualization, it loads to Bulbasaur (Pokemon ID 1) and
-presents four different important bits of information. The
+presents four different important bits of information. The initial view can be seen here ![Initial View](https://github.com/abell625/dataviz-project-proposal/blob/master/VizPic1.PNG) The
 first at the very top of the visualization, it shows the
 selected Pokemon's name, ID and typing. Moving to the top
 left, a radar chart shows how the pokemon's base stats
@@ -17,7 +17,7 @@ looks similar for most pokemon, but shows how the pokemon's
 CP grows as it levels up. On the default view, it will label
 the CP at levels 1, 10, 20, 30, and 51, however this can be
 changed to an absolute value where the top of the graph is
-determined by the pokemon with the highest CP. In this case,
+determined by the pokemon with the highest CP. Here is a picture of the same pokemon in the absolute graph mode ![Absolute mode](https://github.com/abell625/dataviz-project-proposal/blob/master/VizPic2.PNG) In this case,
 since there are many pokemon with maximum CP compared to the
 maximum, we only display the pokemon's max CP due to
 potential overlapping text. Lastly, there is a table on the
@@ -25,12 +25,12 @@ bottom left that has Type effectiveness matchups as well as
 the moves it can learn. In the type effectiveness table, it
 also lists the precise effectiveness of moves against that
 pokemon. Note that the type effectiveness in Pokemon Go is
-very different from the mainline Pokemon games. At the very
+very different from the mainline Pokemon games. Different values of resistances and weaknesses can be found in the image here ![Resistances and Weaknesses](https://github.com/abell625/dataviz-project-proposal/blob/master/VizPic3.PNG) Note how the lowest possible effective value (0.244x) has an asterisk to indicate that it is very ineffective, and bold and normal text are used to differentiate the type effectiveness otherwise. For more details on that, read more in my Week 4 Progress section. At the very
 top, there are two dropdown menus and a input box. The first
 dropdown menu selects a pokemon based on it's name. The
 second dropdown controls the graph on the top right's
 setting. The input box allows you to quickly type in a
-pokemon's name or ID number and it'll load that pokemon.
+pokemon's name or ID number and it'll load that pokemon. Overall, I am happy with how this project turned out, but I still have a few changes I would have liked to make if I had more time.
 
 ### Future Work
 
@@ -41,7 +41,7 @@ pretty for it's purpose. In addition, Pokemon who have a Max
 CP equal to or close to the Max CP of the strongest pokemon
 (Currently Zacian, ID = 888) will still have an issue of
 overlapping text when in the absolute view on the level
-scaling graph ![Glitched Text](https://github.com/abell625/dataviz-project-proposal/blob/master/VizPic4.PNG) . I'm sure there is
+scaling graph. ![Glitched Text](https://github.com/abell625/dataviz-project-proposal/blob/master/VizPic4.PNG) I'm sure there is
 a fix for this, but I cannot think of it at the moment. I
 also cut the "methods of obtaining pokemon" that was present
 in my original sketch because I'm not sure I had the ability
