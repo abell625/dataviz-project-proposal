@@ -32,6 +32,8 @@ second dropdown controls the graph on the top right's
 setting. The input box allows you to quickly type in a
 pokemon's name or ID number and it'll load that pokemon. Overall, I am happy with how this project turned out, but I still have a few changes I would have liked to make if I had more time.
 
+A video presentation of my work can be found at https://youtu.be/0B7rYtYP35o?si=WYtS_56ftcM5VX3W
+
 ### Future Work
 
 I was unable to find the time to make the dropdowns and
